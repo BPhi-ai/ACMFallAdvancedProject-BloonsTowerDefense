@@ -1,0 +1,15 @@
+{
+    "name": "Debug",
+    "references": [
+        "GUID:1bafdd36b4128234cb14e81de1ad6dcf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

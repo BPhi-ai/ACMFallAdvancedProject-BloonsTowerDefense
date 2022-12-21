@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe83f7289b8e44fd81cb55fe93c3ca0d, type: 3}
+  m_Name: Round-28
+  m_EditorClassIdentifier: 
+  _spawnGroups:
+  - _initialSpawnDelay: 0
+    _bloonType: 2
+    _numberInGroup: 40
+    _timeBetweenBloons: 0.6
+  - _initialSpawnDelay: 5
+    _bloonType: 3
+    _numberInGroup: 55
+    _timeBetweenBloons: 0.65
+  _preRoundComment: When you sell a tower, you get 80% of what you paid for it, including
+    all the upgrade money you spent.

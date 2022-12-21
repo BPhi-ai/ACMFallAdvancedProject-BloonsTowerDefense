@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc05d24243443a19f5818e66c87d7eb, type: 3}
+  m_Name: IceTowerProperties
+  m_EditorClassIdentifier: 
+  _towerName: Ice Tower
+  _cost: 850
+  _speed: 0
+  _attackCooldownTime: 5
+  _description: Freezes nearby bloons. Frozen bloons are immune to darts and tacks,
+    but bombs will destroy them. Can upgrade to increased freeze time, and larger
+    freeze radius.
+  _rendererPrefab: {fileID: 4501395930580348430, guid: 9d9e040806aec5b4e987e2037a2276f0,
+    type: 3}
+  _colliderRadius: 0.18
+  _range: 60
+  _canBePlacedOffPath: 1
+  _canBePlacedOnPath: 0
+  _towerAttackType: 2
+  _projectilePrefab: {fileID: 0}
+  _numberProjectiles: 0
+  _freezeDuration: 2.5
+  _towerUpgradeProperties1Path1: {fileID: 11400000, guid: 669508624e65a3340ba75412b4ac6ed4,
+    type: 2}
+  _towerUpgradeProperties1Path2: {fileID: 11400000, guid: 337d68ab3c9dd5a4aa7f6cc5ed026663,
+    type: 2}
+  _towerUpgradeProperties1Path3: {fileID: 0}
+  _towerUpgradeProperties2Path1: {fileID: 0}
+  _towerUpgradeProperties2Path2: {fileID: 0}
+  _towerUpgradeProperties2Path3: {fileID: 0}

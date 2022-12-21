@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc05d24243443a19f5818e66c87d7eb, type: 3}
+  m_Name: DartTowerProperties
+  m_EditorClassIdentifier: 
+  _towerName: Dart Tower
+  _cost: 250
+  _speed: 2
+  _attackCooldownTime: 1
+  _description: Shoots a single dart. Can upgrade to piercing darts and long range
+    darts.
+  _rendererPrefab: {fileID: 8515468468446057532, guid: 50854a4a6619d0a42b68e0fb468f04b4,
+    type: 3}
+  _colliderRadius: 0.18
+  _range: 100
+  _canBePlacedOffPath: 1
+  _canBePlacedOnPath: 0
+  _towerAttackType: 0
+  _projectilePrefab: {fileID: 4276879624985475882, guid: 42d7a87b0d143b146aaeb5e0cb8d10bd,
+    type: 3}
+  _numberProjectiles: 0
+  _freezeDuration: 0
+  _towerUpgradeProperties1Path1: {fileID: 11400000, guid: 4e0e4ab56b21fd748965259503a9a29f,
+    type: 2}
+  _towerUpgradeProperties1Path2: {fileID: 11400000, guid: e6931368d6032d94a8d5f3abec65b104,
+    type: 2}
+  _towerUpgradeProperties1Path3: {fileID: 11400000, guid: d9a424cc61c2cbb44bffeeaadacceada,
+    type: 2}
+  _towerUpgradeProperties2Path1: {fileID: 0}
+  _towerUpgradeProperties2Path2: {fileID: 0}
+  _towerUpgradeProperties2Path3: {fileID: 0}
